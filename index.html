@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="disenio.css">
+</head>
+<body>
+    <div id="div-ppal">
+        <label for="in-url">Ingrese la "url" de una Imagen</label>
+        <input type="url" name="" id="in-url">
+        <button id="bot-agrega" onclick="agregaImg()">Presione para Agregar Imagen</button>
+        <button id="bot-eliUlt" onclick="borraUltima()">Borrar última Imagen ingresada</button>
+        <label for="borr-img">Borrar Imagen (Posición 1 a n) </label>
+        <input type="number" name="" id="borr-img">
+        <button id="bot-agrega" onclick="borraImg()">Presione para Borrar</button>
+    </div>
+    <div id="div-imagenes"></div>
+    
+    <script src="manejo.js"></script>  
+</body>
+</html>
